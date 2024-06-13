@@ -1,0 +1,55 @@
+body{
+    background-color: lightseagreen;
+}
+
+.personajes{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.tarjeta{
+    background-color: rgb(247, 203, 209);
+    width: 500px;
+    height: 700px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-radius: 3%;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border: 4px inset black;
+    box-shadow: 10px 5px 5px rgb(99, 99, 99);
+}
+
+.tarjeta:hover{
+    box-shadow: 30px 20px 20px rgb(99, 99, 99);
+    transition-duration: 1s;
+    background-color: rgb(247, 154, 169);
+    translate: 0px -10px;
+    border-radius: 10%;
+}
+
+.imagen{
+    width: 400px;
+    height: 500px;
+    border-radius: 3%;
+    border: 2px solid black
+}
+
+.nombre{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    text-align: center;
+    border: 3px solid darkgrey;
+    border-style: outset;
+    width: 250px;
+    color: rgb(86, 8, 86);
+}
